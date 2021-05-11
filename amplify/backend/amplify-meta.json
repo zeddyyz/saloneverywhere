@@ -1,0 +1,53 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mobileapp-dev-171650-authRole",
+      "UnauthRoleArn": "arn:aws:iam::603863715777:role/amplify-mobileapp-dev-171650-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::603863715777:role/amplify-mobileapp-dev-171650-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mobileapp-dev-171650-deployment",
+      "UnauthRoleName": "amplify-mobileapp-dev-171650-unauthRole",
+      "StackName": "amplify-mobileapp-dev-171650",
+      "StackId": "arn:aws:cloudformation:us-east-1:603863715777:stack/amplify-mobileapp-dev-171650/0a38d820-b1d5-11eb-92c2-0ae749a35905",
+      "AmplifyAppId": "d1nioa1tu371qp"
+    }
+  },
+  "auth": {
+    "mobileapp2b1a7904": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mobileapp-dev-171650-deployment/amplify-cfn-templates/auth/mobileapp2b1a7904-cloudformation-template.yml",
+        "logicalId": "authmobileapp2b1a7904"
+      },
+      "lastPushTimeStamp": "2021-05-11T03:21:28.321Z",
+      "output": {
+        "UserPoolId": "us-east-1_QU2FySGu4",
+        "AppClientIDWeb": "3du1lg50ptlhr039rhjkpg1oru",
+        "AppClientID": "7bnc5ff86v9dm75t757oum1slu",
+        "IdentityPoolId": "us-east-1:5fa4acb7-69e4-4a0f-8734-55c01239094c",
+        "IdentityPoolName": "mobileapp2b1a7904_identitypool_2b1a7904__dev",
+        "UserPoolName": "mobileapp2b1a7904_userpool_2b1a7904"
+      },
+      "lastPushDirHash": "FXrfOWg5Lqoo3U220AL0cAMQf9s="
+    }
+  },
+  "storage": {
+    "saloneverywhereImage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mobileapp-dev-171650-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storagesaloneverywhereImage"
+      },
+      "lastPushTimeStamp": "2021-05-11T03:21:28.326Z",
+      "output": {
+        "BucketName": "mobileappf7ca9c1efb0b45a8afbc4e542dc7ed4a171650-dev",
+        "Region": "us-east-1"
+      },
+      "lastPushDirHash": "dFzeahxa3T/THno4QY397WxE1Ks="
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "mobileapp2b1a7904": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "saloneverywhereImage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
